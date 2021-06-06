@@ -1,0 +1,23 @@
+.message_body{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: white;
+    margin: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    
+}
+.chat_receiver{
+    margin: auto;
+    padding: 10px;
+    background-color: #dcf8c6;
+}
+.message_body > h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+.time_stamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
